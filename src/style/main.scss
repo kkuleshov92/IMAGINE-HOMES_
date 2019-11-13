@@ -1,0 +1,18 @@
+// libs
+@import 'libs/normalize';
+
+// settings
+@import "settings/_mixins";
+@import "settings/_fonts";
+@import "settings/_common";
+
+// components
+@import '../components/header/header';
+@import '../components/gallery/gallery';
+@import '../components/help/help';
+@import '../components/about/about';
+@import '../components/services/services';
+@import '../components/contact/contact';
+
+@import 'settings/_padding';
+

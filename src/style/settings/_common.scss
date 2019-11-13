@@ -1,0 +1,233 @@
+$mainColor: #dcac22;
+
+
+@font-face {
+	font-family: 'Futura-Medium';
+	src: url('../fonts/Futura-Medium.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/Futura-Medium.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/Futura-Medium.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/Futura-Medium.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('../fonts/Futura-Medium.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/Futura-Medium.svg#svgFontName') format('svg');
+	/* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'TrebuchetMS';
+	src: url('../fonts/TrebuchetMS.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/TrebuchetMS.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/TrebuchetMS.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/TrebuchetMS.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('../fonts/TrebuchetMS.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/TrebuchetMS.svg#svgFontName') format('svg');
+	/* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Cabin-Regular';
+	src: url('../fonts/Cabin-Regular.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/Cabin-Regular.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/Cabin-Regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/Cabin-Regular.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('../fonts/Cabin-Regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/Cabin-Regular.svg#svgFontName') format('svg');
+	/* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Cabin-SemiBoldItalic';
+	src: url('../fonts/Cabin-SemiBoldItalic.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/Cabin-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/Cabin-SemiBoldItalic.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/Cabin-SemiBoldItalic.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('../fonts/Cabin-SemiBoldItalic.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/Cabin-SemiBoldItalic.svg#svgFontName') format('svg');
+	/* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Futura-Bold';
+	src: url('../fonts/Futura-Bold.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/Futura-Bold.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/Futura-Bold.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/Futura-Bold.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('../fonts/Futura-Bold.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/Futura-Bold.svg#svgFontName') format('svg');
+	/* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'NunitoSans-Bold';
+	src: url('../fonts/NunitoSans-Bold.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/NunitoSans-Bold.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/NunitoSans-Bold.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('../fonts/NunitoSans-Bold.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/NunitoSans-Bold.svg#svgFontName') format('svg');
+	/* Legacy iOS */
+}
+
+body {
+	font-family: 'Cabin', sans-serif;
+	font-size: 19px;
+	overflow-x: hidden;
+	color: #616161;
+	letter-spacing: 0;
+
+	@include r(767) {
+		font-size: 18px;
+	}
+
+	@include r(479) {
+		font-size: 16px;
+	}
+}
+
+img {
+	max-width: 100%;
+}
+
+svg {
+	overflow: hidden;
+}
+
+p {
+	line-height: 1.22em;
+	letter-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'TrebuchetMS', sans-serif;
+	letter-spacing: .12em;
+}
+
+.container {
+	width: 1160px;
+	margin: 0 auto;
+	padding: 0 25px;
+
+	@include r(1189) {
+		width: 1024px;
+	}
+
+	@include r(1023) {
+		width: 768px;
+		padding: 0 10px;
+	}
+
+	@include r(767) {
+		width: 640px;
+	}
+
+	@include r(639) {
+		width: 480px;
+	}
+
+	@include r(479) {
+		width: 100%;
+	}
+}
+
+.title {
+	font-size: 28px;
+	line-height: 1.3;
+	text-transform: capitalize;
+	font-family: 'TrebuchetMS', sans-serif;
+	color: #fff;
+	text-align: center;
+	letter-spacing: .12em;
+
+	@include r(1189) {
+		font-size: 30px;
+	}
+
+	@include r(1023) {
+		font-size: 28px;
+		line-height: 1.1;
+	}
+
+	@include r(767) {
+		font-size: 26px;
+	}
+
+	@include r(639) {
+		font-size: 24px;
+	}
+
+	@include r(479) {
+		font-size: 22px;
+	}
+}
+
+.text-bold {
+	font-weight: 700;
+}
+
+.btn {
+	text-transform: capitalize;
+	font-size: 24px;
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	background: $mainColor;
+	height: 51px;
+	line-height: 51px;
+	color: #fff;
+	border-radius: 8px;
+	display: block;
+	cursor: pointer;
+	transition: .3s;
+
+	&:hover {
+		background: #b18814;
+	}
+
+	@include r(1189) {}
+
+	@include r(1023) {}
+
+	@include r(767) {
+		font-size: 20px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	@include r(639) {}
+
+	@include r(479) {
+		;
+	}
+}
