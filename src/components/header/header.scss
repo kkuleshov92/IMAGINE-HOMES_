@@ -1,16 +1,29 @@
 .header {
-	background: url(../img/backgr-header.jpg)no-repeat center center / cover;
+	background: url(../img/header-backgr.jpg)no-repeat center center / cover;
     color: #fff;
     font-family: 'Futura-Medium', sans-serif;
     font-size: 20px;
     line-height: 1.2em;
     padding-bottom: 138px;
-    padding-top: 60px;
+    padding-top: 57px;
 
     &__title {
-
+		font-size: 36px;
+		letter-spacing: 0.22em;
     }
 
+    &__wrap {
+		width: 422px;
+    	padding: 207px 0 50px;
+    	text-align: justify;
+    }
+
+	&__text {
+		letter-spacing: 0.05em;
+	}
+	&__push {
+		
+	}
 }
 
 @media (max-width: 1189px) {}
