@@ -49,29 +49,30 @@
 
 @media (max-width: 1023px) {
 	.header {
-    font-size: 18px;
-    padding-bottom: 67px;
-    padding-top: 57px;
+	    font-size: 18px;
+	    padding-bottom: 67px;
+	    padding-top: 57px;
 
-    &__title {
-		font-size: 34px;
-    }
+	    &__title {
+			font-size: 34px;
+	    }
 
-    &__wrap {
-		width: 422px;
-    	margin: 207px 0 81px;
-    }
+	    &__wrap {
+			width: 422px;
+	    	margin: 207px 0 81px;
+	    }
 
-	&__text {
-	}
-	&__push {
-		margin: 9px 0 52px;
-	}
-	&__link {
-    	font-size: 15px;
-	}
-	&__watchword {
-		font-size: 22px;
+		&__text {
+		}
+		&__push {
+			margin: 9px 0 52px;
+		}
+		&__link {
+	    	font-size: 15px;
+		}
+		&__watchword {
+			font-size: 22px;
+		}
 	}
 }
 
