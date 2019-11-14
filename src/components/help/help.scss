@@ -1,10 +1,257 @@
-.gallery {}
+.help {
+	background: url(../img/help-backgr.jpg)no-repeat center center / cover;
+    color: #5c5c5c;
+    font-family: 'Futura-Medium', sans-serif;
+    font-size: 20px;
+    line-height: 1.2em;
+    padding-bottom: 54px;
+    padding-top: 98px;
 
-@media (max-width: 1189px) {}
+    &__title {
+    	color: #151515;
+    	font-size: 28px;
+    	text-align: center;
+    	margin-bottom: 71px;
+    }
 
-@media (max-width: 1023px) {}
+    &__wrap {
 
-@media (max-width: 767px) {}
+    }
+
+    &__content {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-between;
+    }
+
+    &__item {
+		width: 350px;
+		border: 1px solid #242424;
+	    padding: 48px 18px 25px 19px;
+    }
+
+    &__subtitle {
+    	color: #242424;
+    	font-size: 22px;
+    	text-align: center;
+    	letter-spacing: 0.08em;
+    	line-height: 1.36em;
+    	height: 65px;
+    }
+
+    &__question {
+		font-family: 'Futura-Bold', sans-serif;
+		text-align: center;
+	    margin: 19px 8px 41px 5px;
+    }
+
+    &__text {
+		margin: 0 13px 13px;
+    }
+
+    &__point {
+		color: #262626;
+		font-size: 22px;
+		width: 654px;
+		font-family: 'TrebuchetMS', sans-serif;
+		margin: 62px auto 0;
+		text-align: center;
+		position: relative;
+    }
+
+    &__point:after {
+    	position: absolute;
+		content: url(../img/help-man.png);
+		top: 18px;
+		right: -134px;
+    }
+    
+	
+	&__experience {
+		letter-spacing: 0.08em;
+	}
+
+    &__asset {
+		letter-spacing: 0.08em;
+		margin-top: 10px;
+    }
+}
+
+@media (max-width: 1189px) {
+	.help {
+	    font-size: 19px;
+	    padding-top: 88px;
+
+	    &__title {
+	    	margin-bottom: 50px;
+	    }
+
+	    &__wrap {
+
+	    }
+
+	    &__content {
+	    }
+
+	    &__item {
+			width: 320px;
+	    }
+
+	    &__subtitle {
+	    	font-size: 21px;
+	    }
+
+	    &__question {
+		    margin: 19px 8px 30px 5px;
+	    }
+
+	    &__text {
+			margin: 0;
+	    }
+
+	    &__point {
+			font-size: 20px;
+			width: 654px;
+			margin: 62px auto 0;
+	    }
+
+	    &__point:after {
+			top: 18px;
+			right: -80px;
+	    }
+	    
+		
+		&__experience {
+		}
+
+	    &__asset {
+			margin-top: 10px;
+	    }
+	}
+}
+
+@media (max-width: 1023px) {
+		.help {
+	    font-size: 18px;
+
+	    &__title {
+	    	margin-bottom: 35px;
+	    }
+
+	    &__wrap {
+
+	    }
+
+	    &__content {
+	    	-webkit-flex-wrap: wrap;
+	    	-moz-flex-wrap: wrap;
+	    	-ms-flex-wrap: wrap;
+	    	-o-flex-wrap: wrap;
+	    	flex-wrap: wrap;
+	    	justify-content: space-around;
+	    }
+
+	    &__item {
+			width: 320px;
+		    padding: 25px 10px 15px 15px;
+	    }
+
+	    &__item_push {
+			margin-top: 35px;
+	    }
+
+	    &__subtitle {
+	    	font-size: 20px;
+	    	height: auto;
+	    }
+
+	    &__question {
+		    margin: 15px 0 21px ;
+	    }
+
+	    &__text {
+			margin: 0;
+	    }
+
+	    &__point {
+			font-size: 18px;
+			width: 600px;
+			margin: 40px auto 0;
+	    }
+
+	    &__point:after {
+			top: 2px;
+			right: -50px;
+	    }
+	    
+		
+		&__experience {
+		}
+
+	    &__asset {
+			margin-top: 5px;
+	    }
+	}
+}
+
+@media (max-width: 767px) {
+			.help {
+	    font-size: 16px;
+
+	    &__title {
+	    	margin-bottom: 35px;
+	    }
+
+	    &__wrap {
+
+	    }
+
+	    &__content {
+
+	    }
+
+	    &__item {
+			width: 300px;
+		    padding: 25px 10px 15px 15px;
+	    }
+
+	    &__item_push {
+			margin-top: 15px;
+	    }
+
+	    &__subtitle {
+	    	font-size: 18px;
+	    }
+
+	    &__question {
+		    margin: 15px 0 21px ;
+	    }
+
+	    &__text {
+			margin: 0;
+	    }
+
+	    &__point {
+			font-size: 16px;
+			width: 600px;
+			margin: 40px auto 0;
+	    }
+
+	    &__point:after {
+			content: '';
+	    }
+	    
+		
+		&__experience {
+		}
+
+	    &__asset {
+	    }
+	}
+}
 
 @media (max-width: 639px) {}
 
