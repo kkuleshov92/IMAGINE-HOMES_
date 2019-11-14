@@ -98,7 +98,7 @@ $mainColor: #dcac22;
 }
 
 body {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Futura-Medium', sans-serif;
 	font-size: 19px;
 	overflow-x: hidden;
 	color: #616161;
@@ -173,24 +173,24 @@ h5 {
 	letter-spacing: .12em;
 
 	@include r(1189) {
-		font-size: 30px;
+		font-size: 26px;
 	}
 
 	@include r(1023) {
-		font-size: 28px;
+		font-size: 24px;
 		line-height: 1.1;
 	}
 
 	@include r(767) {
-		font-size: 26px;
+		font-size: 22px;
 	}
 
 	@include r(639) {
-		font-size: 24px;
+		font-size: 22px;
 	}
 
 	@include r(479) {
-		font-size: 22px;
+		font-size: 20px;
 	}
 }
 
