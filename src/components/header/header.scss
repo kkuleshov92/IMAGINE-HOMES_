@@ -22,16 +22,23 @@
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
 	}
+
 	&__push {
 		text-align: right;
 		letter-spacing: 0.05em;
 		margin: 9px 0 52px;
 	}
+
+	&__address {
+		width: 230px;
+	}
+
 	&__link {
     	color: #fff;
     	font-size: 17px;
     	line-height: 1.6em;		
 	}
+
 	&__watchword {
 		font-size: 24px;
 		font-family: 'NunitoSans-Bold', sans-serif;
@@ -50,7 +57,7 @@
 @media (max-width: 1023px) {
 	.header {
 	    font-size: 18px;
-	    padding-bottom: 67px;
+	    padding-bottom: 30px;
 	    padding-top: 57px;
 
 	    &__title {
@@ -58,26 +65,108 @@
 	    }
 
 	    &__wrap {
-			width: 422px;
-	    	margin: 207px 0 81px;
+	    	margin: 100px 0 50px;
 	    }
 
-		&__text {
-		}
 		&__push {
-			margin: 9px 0 52px;
+			margin: 9px 0 30px;
 		}
+
 		&__link {
 	    	font-size: 15px;
 		}
+
 		&__watchword {
 			font-size: 22px;
 		}
 	}
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+	.header {
+	    font-size: 16px;
+	    padding-bottom: 25px;
+	    padding-top: 40px;
 
-@media (max-width: 639px) {}
+	    &__title {
+			font-size: 30px;
+	    }
 
-@media (max-width: 479px) {}
+	    &__wrap {
+	    	margin: 60px 0 50px;
+	    }
+
+		&__push {
+			margin: 5px 0 10px;
+		}
+
+		&__link {
+	    	font-size: 14px;
+		}
+
+		&__watchword {
+			font-size: 20px;
+		}
+	}
+}
+
+@media (max-width: 639px) {
+		.header {
+	    font-size: 14px;
+	    padding-bottom: 25px;
+	    padding-top: 40px;
+
+	    &__title {
+			font-size: 30px;
+	    }
+
+	    &__wrap {
+	    	width: 100%;
+	    	margin: 35px 0 35px;
+	    }
+
+		&__push {
+			margin: 5px 0 10px;
+		}
+
+		&__link {
+	    	font-size: 13px;
+		}
+
+		&__watchword {
+			font-size: 17px;
+		}
+	}
+}
+
+@media (max-width: 479px) {
+			.header {
+	    font-size: 13px;
+	    padding-bottom: 25px;
+	    padding-top: 40px;
+
+	    &__title {
+			font-size: 28px;
+	    }
+
+	    &__wrap {
+	    	width: 100%;
+	    	margin: 35px 0 35px;
+	    }
+
+		&__text {
+		}
+
+		&__push {
+			margin: 5px 0 10px;
+		}
+
+		&__link {
+	    	font-size: 12px;
+		}
+
+		&__watchword {
+			font-size: 15px;
+		}
+	}
+}
