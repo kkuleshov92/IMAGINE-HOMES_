@@ -1,4 +1,17 @@
-.header {}
+.header {
+	background: url(../img/backgr-header.jpg)no-repeat center center / cover;
+    color: #fff;
+    font-family: 'Futura-Medium', sans-serif;
+    font-size: 20px;
+    line-height: 1.2em;
+    padding-bottom: 138px;
+    padding-top: 60px;
+
+    &__title {
+
+    }
+
+}
 
 @media (max-width: 1189px) {}
 
