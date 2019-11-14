@@ -4,7 +4,7 @@
     font-family: 'Futura-Medium', sans-serif;
     font-size: 20px;
     line-height: 1.2em;
-    padding-bottom: 138px;
+    padding-bottom: 67px;
     padding-top: 57px;
 
     &__title {
@@ -14,21 +14,66 @@
 
     &__wrap {
 		width: 422px;
-    	padding: 207px 0 50px;
+    	margin: 207px 0 81px;
     	text-align: justify;
     }
 
 	&__text {
 		letter-spacing: 0.05em;
+		text-transform: uppercase;
 	}
 	&__push {
-		
+		text-align: right;
+		letter-spacing: 0.05em;
+		margin: 9px 0 52px;
+	}
+	&__link {
+    	color: #fff;
+    	font-size: 17px;
+    	line-height: 1.6em;		
+	}
+	&__watchword {
+		font-size: 24px;
+		font-family: 'NunitoSans-Bold', sans-serif;
+		text-align: center;
 	}
 }
 
-@media (max-width: 1189px) {}
+@media (max-width: 1189px) {
+	.header {
+		&__wrap {;
+	    	margin: 170px 0 61px;
+	    }
+	}
+}
 
-@media (max-width: 1023px) {}
+@media (max-width: 1023px) {
+	.header {
+    font-size: 18px;
+    padding-bottom: 67px;
+    padding-top: 57px;
+
+    &__title {
+		font-size: 34px;
+    }
+
+    &__wrap {
+		width: 422px;
+    	margin: 207px 0 81px;
+    }
+
+	&__text {
+	}
+	&__push {
+		margin: 9px 0 52px;
+	}
+	&__link {
+    	font-size: 15px;
+	}
+	&__watchword {
+		font-size: 22px;
+	}
+}
 
 @media (max-width: 767px) {}
 
