@@ -171,7 +171,7 @@ h5 {
 	font-family: 'TrebuchetMS', sans-serif;
 	color: #fff;
 	text-align: center;
-	letter-spacing: .12em;
+	letter-spacing: 0;
 
 	@include r(1189) {
 		font-size: 26px;
