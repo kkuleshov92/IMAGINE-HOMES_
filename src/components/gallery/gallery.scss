@@ -22,10 +22,6 @@
     	justify-content: space-between;
     }
 
-    &__text {
-
-    }
-
     &__content {
 		margin-bottom: 7px;
     }
@@ -72,6 +68,20 @@
 		font-family: 'Cabin-Regular', sans-serif;
 		font-size: 14px;
 		text-align: center;
+		margin-top: 5px;
+	}
+
+	&__wrap {
+		width: 270px;
+	}
+
+	&__img {
+		height: 354px;
+		
+		img {
+			height: 100%;
+			width: 100%;
+		}
 	}
 }
 .big {
@@ -111,6 +121,14 @@
 		&__text {
 			font-size: 14px;
 		}
+
+		&__wrap {
+			width: 220px;
+		}
+
+		&__img {
+			height: 300px;
+		}
 	}
 }
 
@@ -131,10 +149,13 @@
 	    &__text_up {
 			width: 400px;
 			font-size: 20px;
+
+			&::after {
+				display: none;
+			}
 	    }
 	}
-}
-
+	
 	.photo {
 		margin-top: 80px;
 		-webkit-flex-direction: column;
@@ -225,10 +246,6 @@
 
 	.photo {
 		margin-top: 30px;
-
-		&__text {
-			font-size: 11px;
-		}
 	}
 }
 
@@ -265,12 +282,9 @@
 			flex-direction: column;
 		}
 
-		&__img {
-
+		&__wrap {
+			margin-top: 15px;
 		}
 
-		&__text {
-			font-size: 10px;
-		}
 	}
 }
