@@ -32,7 +32,7 @@ let path = {
 		fonts: 'dist/fonts',
 	},
 	watch: {
-		pug: "./src/**/*.pug",
+		pug: "./src/**/*.html",
 		style: 'src/**/*.+(sass|scss)',
 		scripts: 'src/**/*.js',
 		img: 'src/img/*.+(jpg|jpeg|png|svg|ico|gif)',
