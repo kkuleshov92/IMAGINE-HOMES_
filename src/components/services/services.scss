@@ -2,11 +2,10 @@
     color: #5c5c5c;
     padding-top: 130px;
     padding-bottom: 30px;
-    background: url(../img/service-bg.jpg)no-repeat top -55px center / cover;
+    background: url(../img/service-bg.jpg)no-repeat top -55px center / contain;
 
     &__title {
         color: #151515;
-        padding-left: 20px;
     }
 
     &__box {
@@ -16,7 +15,7 @@
     }
 
     &__content {
-        width: 727px;
+        width: 737px;
         margin-top: 47px;
         padding-left: 7px;
     }
